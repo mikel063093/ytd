@@ -1,0 +1,25 @@
+{
+  "name": "ytd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "concat-stream": "^1.5.2",
+    "fluent-ffmpeg": "^2.0.1",
+    "follow-redirects": "^0.2.0",
+    "minimist": "^1.2.0",
+    "pully": "^1.2.5",
+    "regex": "^0.1.1",
+    "request": "^2.64.0",
+    "trumpet": "^1.7.2",
+    "util": "^0.10.3",
+    "video-converter": "^1.0.0",
+    "ytdl-core": "^0.7.18"
+  }
+}
