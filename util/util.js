@@ -57,6 +57,7 @@ function playlistDownload (plID, path) {
       if (videos.hasOwnProperty(vid) && videos[vid].attribs) {
         idVideos.push(videos[vid].attribs['data-video-id'])
     }
+    console.log(idVideos)
     self.videoDownload(idVideos, path)
   })
 }
